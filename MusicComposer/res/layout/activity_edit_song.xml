@@ -1,0 +1,303 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="oos.group6.musiccomposer.EditSong" >
+
+    <TextView
+        android:id="@+id/textViewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Note"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextViewValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="5dp"
+        android:text="Value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerNotes"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="0dip"
+        android:spinnerMode="dropdown"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="5pt"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <Spinner
+        android:id="@+id/spinnerValue"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="0dip"
+        android:spinnerMode="dropdown"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="5pt"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <TextView
+        android:id="@+id/TextViewAccidental"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="5dp"
+        android:text="Accidental"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerAccidental"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="0dip"
+        android:spinnerMode="dropdown"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="5pt"
+        tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+    <Button
+        android:id="@+id/buttonPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape"
+        android:text="Place Note" />
+
+    <ImageView
+        android:id="@+id/Staff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/staff" />
+
+    <ImageView
+        android:id="@+id/Note0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/quarter"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Accidental0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/sharp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Note1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/quarter"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Accidental1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/sharp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Note2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/quarter"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Accidental2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/sharp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Note3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/quarter"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Accidental3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/sharp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Note4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/quarter"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Accidental4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/sharp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Note5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="345dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/quarter"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Accidental5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/sharp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Note6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="385dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/quarter"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Accidental6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/sharp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Note7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="425dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/quarter"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/Accidental7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="410dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/sharp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/button_shape"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/button_shape"
+        android:text="&lt;" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/button_shape"
+        android:text=">" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/button_shape"
+        android:text="Delete Last Note" />
+
+    <TextView
+        android:id="@+id/measureNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:text="Measure 1/1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="393dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/button_shape"
+        android:text="Play" />
+
+</FrameLayout>
